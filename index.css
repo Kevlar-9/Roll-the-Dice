@@ -1,0 +1,25 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    background: linear-gradient(
+        rgb(151, 55, 55), rgb(255, 0, 0)
+        )
+        0 100% no-repeat;
+        background-size: 100% 50%;
+}
+
+.container{
+width: 400px;
+padding: 50px;
+position: absolute;
+transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+    background-color: rgba(0, 0, 0, 0.8);
+    box-shadow: 0 15px 35px rgba(50, 50, 50, 0.2);
+    border-radius: 8px;
+}

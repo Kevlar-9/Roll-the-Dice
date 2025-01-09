@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Roll The Dice</title>
+    <link rel="stylesheet" href="index.css">
+    <link href = "https://fonts.googleapis.com/css2?family=Poppings:wght@500&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class = "container">
+        <h1>Roll The Dice</h1>
+        <div class = "dice">
+            <img src = "dice1.png" alt = "dice" id = "dice">
+        </div>
+        <button onclick = "rollTheDice()">Roll The Dice</button>
+    </div>
+
+    <!-- Script -->
+    <script>
+        function rollTheDice(){
+            let randomNumber = Math.floor(Math.random() * 6) + 1;
+            let dice = document.getElementById('dice');
+            dice.src = 'dice' + randomNumber + '.png';
+        }
+    </script>
+
+    <!-- External JS -->
+    // index.js
+    // JS code
+      
+
+
+
+
+
+git
+
+    <script src = "index.js"></script>
+</body>
+</html>
